@@ -1,0 +1,439 @@
+/* Version 2.5 Verified on FF AND IE w/ blue and grey theme*/
+
+/* blue theme */
+#paging {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:7px;
+	clear:both;
+	text-align:center;
+	white-space:nowrap;
+	width:500px;
+	height:30px;
+	text-decoration:none;
+	color:#003F97;
+	font-family:Arial;
+	font-size:12px;	
+	display:inline;
+}
+
+#paging div:hover {
+	color:#003f97;
+}
+
+#paging .page {
+	float:left;
+	border:1px solid #CCCCCC;
+	margin-left:5px;
+	margin-top:5px;
+	padding:2px 5px 2px 5px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+}
+
+#paging .GotoPage {
+	float:left;
+	border:1px solid #CCCCCC;
+	
+	margin-left:4px;
+	margin-top:5px;
+	padding:1px 2px 1px 2px;
+	cursor:pointer;
+	margin-bottom: 0;
+	border: 1px solid #CCCCCC;
+	height: 17px;
+	font-size: 11px;	
+	display:inline;
+	background-color:#FFF;
+}
+
+#paging .PageSelect {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #CCCCCC;
+	height: 16px;
+	font-size: 9px;
+	background-color:#FFF;
+	
+}
+
+#paging div.page:hover, #paging div.active {
+	border:1px solid #003f97;
+}
+
+#paging div.active {
+	padding:4px 10px 4px 10px;
+	background:#003f97;
+	margin-top:0px;
+	font-weight:bold;
+	font-size:16px;
+	color:#FFFFFF;	
+}
+
+/* grey theme */
+
+#paging2 {
+	margin: auto; 
+	font-size:100%;
+	line-height:25px;
+	cursor:pointer;
+	font: Arial,Helvetica,sans-serif;
+	clear:both;
+	text-align:center;
+	white-space:nowrap;
+	width:500px;
+	height:30px;
+}
+
+#paging2 div:hover {
+  border: 1px solid #333;
+  background-color:#fff4aa;
+}
+
+#paging2 .page {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #777;
+	text-decoration: none;
+	color: #555;
+	display: inline;
+	height:11px;
+	width:5px;
+	cursor:pointer;
+	background-color: #FFF;
+}
+
+#paging2 .GotoPage {
+	display: inline;
+	float:center;
+	border:1px solid #CCCCCC;
+	margin-left:2px;
+	margin-top:5px;
+	padding:1px 2px 1px 2px;
+	margin-bottom: 0;
+	border: 1px solid #777777;
+	height: 9px;
+	font-size: 11px;	
+	text-align:right;
+	background-color:#FFF;
+	color:#333333;
+}
+
+#paging2 .PageSelect {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #CCCCCC;
+	background-color:#FFF;
+	font-size: 9px;
+}
+
+#paging2 div.page:hover, #paging2 div.active {
+	border:1px solid #003f97;
+}
+
+#paging2 div.active {
+	border: 1px solid #333;
+	font-weight: bold;
+	background-color: #eee;
+	color: #333;
+	line-height:1.22em;
+	font: Arial,Helvetica,sans-serif;
+}
+
+/* blue small theme */
+
+#paging3 {
+	padding: 1em;
+	margin: 1em 0;
+	clear: left;
+	font-size: 80%;
+	font-family:arial,helvetica,sans-serif;
+}
+
+#paging3 div:hover {
+	border-color: #2E6AB1;
+}
+
+#paging3 .page {
+    display: block;
+    float: left;
+	font-size: 85%;
+    padding: 0.2em 0.5em;
+    margin-right: 0.1em;
+    background: #fff;
+    border: 1px solid #9AAFE5;
+    text-decoration: none;	
+	color: #105CB6;
+	cursor: pointer;
+}
+
+#paging3 .GotoPage {
+    display: block;
+    float: left;
+	font-size: 85%;
+    padding: 0.2em 0.5em;
+    margin-right: 0.1em;
+    background: #fff;
+    border: 1px solid #9AAFE5;
+    text-decoration: none;	
+	color: #105CB6;
+	cursor: pointer;
+	height:14px;
+}
+
+#paging3 .PageSelect {
+	margin-bottom: 0;
+	margin-top: -1px;;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #CCCCCC;
+	font-size: 9px;
+}
+
+#paging3 div.page:hover, #paging3 div.active {
+	border:1px solid #003f97;
+}
+
+#paging3 div.active {
+    border: 1px solid #2E6AB1;
+    font-weight: bold;
+    background: #2E6AB1;
+    color: #fff;
+}
+#paging3 div.disabled {
+	border: 1px solid #9AAFE5
+	cursor:default;
+	font: Arial,Helvetica,sans-serif;
+}
+#paging3 div.disabled:hover {
+	border: 1px solid #9AAFE5
+	cursor:default;
+	font: Arial,Helvetica,sans-serif;
+}
+/* black/orange theme */
+
+/* blue small theme */
+
+#paging4 {
+	clear: both;
+	height: 1%; /* Fixes double padding in IE */
+	background: #3E3E3E;
+	margin: 0 10px;
+	/*border: 1px solid #313131;*/
+	font-size: 0.8em;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	white-space:nowrap;
+}
+
+#paging4 div:hover {
+	background: #EC5210;
+}
+
+#paging4 .page {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    cursor:pointer;
+	text-decoration: none;
+	background: #3E3E3E;
+	color: #fff;
+}
+
+#paging4 .GotoPage {
+	font-size: 85%;
+    margin-right: 0.1em;
+	cursor: pointer;
+	height:17px;
+	display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+	text-decoration: none;
+	background: #3E3E3E;
+	color: #fff;
+}
+
+#paging4 .PageSelect {
+	margin-bottom: 0;
+	margin-top: -1px;;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #CCCCCC;
+	font-size: 9px;
+}
+
+#paging4 div.page:hover, #paging4 div.active {
+	background: #EC5210;
+}
+
+#paging4 div.active {
+	background: #313131;
+}
+/* mini-grey  theme */
+
+#paging5 {
+	margin: 1em 0; 
+	font-size:80%;
+	line-height:1.22em;
+	font: Arial,Helvetica,sans-serif;
+	clear:both;
+	text-align:center;
+	white-space:nowrap;
+	width:240px;
+	height:30px;
+}
+
+#paging5 div:hover {
+  border: 1px solid #333;
+  background-color:#fff4aa;
+}
+
+#paging5 .page {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #777;
+	text-decoration: none;
+	color: #555;
+	display: inline;
+	height:13px;
+	cursor:pointer;
+	width:5px;
+	cursor:pointer;
+	background-color: #FFF;
+}
+
+#paging5 .GotoPage {
+	display: inline;
+	float:center;
+	border:1px solid #CCCCCC;
+	margin-left:2px;
+	margin-top:5px;
+	padding:1px 2px 1px 2px;
+	margin-bottom: 0;
+	border: 1px solid #777777;
+	height: 9px;
+	font-size: 11px;	
+	text-align:right;
+	background-color:#FFF;
+	color:#333333;
+}
+
+#paging5 .PageSelect {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #CCCCCC;
+	background-color:#FFF;
+	font-size: 9px;
+}
+
+#paging5 div.page:hover, #paging5 div.active {
+	border:1px solid #003f97;
+}
+
+#paging5 div.active {
+	border: 1px solid #333;
+	font-weight: bold;
+	background-color: #eee;
+	color: #333;
+	line-height:1.22em;
+	font: Arial,Helvetica,sans-serif;
+}
+
+#paging6 {
+	margin: 1em 0; 
+	font-size:80%;
+	line-height:1.22em;
+	font: Arial,Helvetica,sans-serif;
+	clear:both;
+	text-align:center;
+	white-space:nowrap;
+	width:240px;
+	height:30px;
+}
+
+#paging6 div:hover {
+  border: 1px solid #333;
+  background-color:#fff4aa;
+}
+
+#paging6 .page {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #777;
+	text-decoration: none;
+	color: #555;
+	display: inline;
+	height:13px;
+	cursor:pointer;
+	width:5px;
+	cursor:pointer;
+	background-color: #FFF;
+}
+
+#paging6 .GotoPage {
+	display: inline;
+	float:center;
+	border:1px solid #CCCCCC;
+	margin-left:2px;
+	margin-top:5px;
+	padding:1px 2px 1px 2px;
+	margin-bottom: 0;
+	border: 1px solid #777777;
+	height: 9px;
+	font-size: 11px;	
+	text-align:right;
+	background-color:#FFF;
+	color:#333333;
+}
+
+#paging6 .PageSelect {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #CCCCCC;
+	background-color:#FFF;
+	font-size: 9px;
+}
+
+#paging6 div.page:hover, #paging6 div.active {
+	border:1px solid #003f97;
+}
+
+#paging6 div.active {
+	border: 1px solid #333;
+	font-weight: bold;
+	background-color: #eee;
+	color: #333;
+	line-height:1.22em;
+	font: Arial,Helvetica,sans-serif;
+}
